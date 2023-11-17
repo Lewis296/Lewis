@@ -1,0 +1,84 @@
+body {background-color: black}
+
+section {display: -webkit-flex;
+         display: flex;}
+nav {-webkit-flex: 1;
+         -ms-flex: 1;
+        flex: ;   
+        background: #ccc;}
+article { -webkit-flex: 25;
+        -ms-flex: 25;height: 550px;
+        background-color: beige;
+        padding: 10px;}
+
+footer {background-color: blue;padding: 10px;text-align: center;color: aliceblue;}
+
+.header { background-image: url(music.jpg); border: 1px solid orange; height: 100px;
+          box-shadow: 0 5px 5px -5px black;border-radius: 0px 0px 10px 10px;}
+        /*---categories--*/
+.grid-container {margin-left: 10%;
+                display: grid;
+                grid-template-columns: auto auto;
+                background-color: black;
+                padding: 30px;
+                border: none;
+                gap: 10px;
+                
+
+              }
+              .grid-item {
+                background-image: url(music.jpg);background-size:cover;
+                border: 0px solid gray;
+                padding: 50px;
+                font-size: 30px;
+                font-family: Times, serif;
+                text-align: center;
+                border-radius: 20px;height: 200px;width: 300px;
+              }      
+
+        /*--topbarmenu--*/
+ div.scrollmenu {
+                background-color: black;
+                overflow: auto;
+                white-space: nowrap;
+              }
+              
+              div.scrollmenu a {
+                display: inline-block;
+                color: white;
+                text-align: center;
+                padding: 14px;
+                text-decoration: none;
+                font-family:monospace;
+              }
+              
+              div.scrollmenu a:hover {
+                background-color: #777;
+              }          
+/*tablebar*/    
+ .gridbar { background-color: orange;border: none; border-radius: 5%;
+        margin:auto;width: 1100px; height: 50px;border-radius: 25px;}
+
+/* sidebar */
+#mySidenav a {
+        position: absolute;
+        left: -80px;
+        transition: 0.3s;
+        padding: 15px;
+        width: 80px;
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        border-radius: 15px 50px 30px;
+      }
+      
+      #mySidenav a:hover {
+        left: 0;
+      }
+      
+      #sidebar {
+        top: 25%;
+        height: 80%;
+        background-color: black;
+        border: 1px solid orange;
+      }
